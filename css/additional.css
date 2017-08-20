@@ -1,0 +1,19 @@
+#myForm input[type=text]{
+	margin-bottom:10px;
+}
+#myForm{
+	margin-top:10px;
+}
+.error{
+	border: 1px solid red;
+}
+.success{
+	border:1px solid green;
+}
+.progres{
+	border:1px solid #f97a4c;
+}
+#resultContainer{
+   padding: 10px;
+   margin-top: 10px;
+}

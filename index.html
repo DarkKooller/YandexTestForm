@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Тестовое задание для яндекса</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/additional.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4">
+					
+					<div id="resultContainer"></div>
+					<form method="post" action="success.json" id="myForm">
+						<input type="text" placeholder="ФИО" class="form-control" required="required" name="fio" value="раз двыа тры">
+						<input type="text" placeholder="E-mail" class="form-control" required="required"  name="email" value="test@ya.ru">
+						<input type="text" placeholder="Телефон" class="form-control" required="required"  name="phone" value="+7(911)111-11-11">
+						<input type="submit" value="Отправить" class="btn btn-success" id="submitButton">
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="index.js"></script>
+		
+	</body>
+</html>
